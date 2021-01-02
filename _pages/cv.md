@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-[Click to View My Up-to-date CV [PDF]](http://hoagiet.github.io/files/lantaoyu_cv.pdf)
+[Click to View My Up-to-date CV [PDF]](http://hoagiet.github.io/files/Resume_Hogan Tong.pdf)
 
-<!-- <embed src="http://lantaoyu.com/files/lantaoyu_cv.pdf" width="650" height="1800" type='application/pdf'> -->
+<!-- <embed src="http://hoagiet.github.io/files/Resume_Hogan Tong.pdf" width="650" height="1800" type='application/pdf'> -->
 
 Education
 ======
