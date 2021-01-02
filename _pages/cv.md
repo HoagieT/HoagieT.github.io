@@ -17,12 +17,12 @@ Education
 
 Work experience
 ======
-* Summer 2015: Research Assistant
+* China Rates Strategist, CITIC Securities Co. Ltd., 01/2019-09/2020
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
+* Alternative Credit Analyst, CITIC Securities Co. Ltd., 02/2017-01/2019
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
@@ -40,19 +40,7 @@ Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul>  
   
 Service and leadership
 ======
