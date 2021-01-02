@@ -22,23 +22,25 @@ Education
 Work experience
 ======
 * China Rates Strategist, CITIC Securities Co. Ltd., 01/2019-09/2020
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Develop quantitative models for macroeconomic and rates forecast.
+  * Advise portfolio managers and clients on macroeconomics analysis and rates strategies
+  * Lead investment research in treasury future trading strategy.
 
 * Alternative Credit Analyst, CITIC Securities Co. Ltd., 02/2017-01/2019
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Manage asset securitization projects, responsibilities include due diligence, credit analysis, modeling, presentations, and facilitating transactions.
+  * Explore investment opportunities on project finance debt and pitch investment ideas to portfolio managers and clients.
+  * Establish research methodology for consumer credit assets, develop China's first forecasting model for subordinate tranche of consumer loan-backed securities.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Statistical Modelling
+* Coding
+  * Python
+  * R
+  * Matlab
+  * VBA
+* Time Series
+* Fundamental Research
 
 Publications
 ======
