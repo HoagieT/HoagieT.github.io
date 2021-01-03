@@ -1,6 +1,6 @@
 ---
 title: "Value Investing Screening Model"
-excerpt: "<br/><img src='/images/stock pitch image.png' style='zoom:40%'>"
+excerpt: "<br/><img src='/images/DEA image.png' style='zoom:40%'>"
 collection: portfolio
 ---
 
