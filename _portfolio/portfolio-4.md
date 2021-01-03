@@ -11,6 +11,8 @@ The model is a statistical arbitrage algorithm based on mean reversion stochasti
 
 A chart for trading indicator is also designed in this project.
 
+<br/><img src='/images/Stochastic Spread image.png' style='zoom:65%'>
+
 **Chart Notes:** 
 1. Red line represents the priori Kalman Filter prediction, i.e. the fair value of spreads.
 2. Black line represents the observed spreads calculated with close price each day.
