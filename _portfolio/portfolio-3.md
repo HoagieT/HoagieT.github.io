@@ -3,7 +3,6 @@ title: "Value Investing Screening Model"
 excerpt: "<br/><img src='/images/DEA image.png' style='zoom:65%'>"
 collection: portfolio
 ---
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
 
 In value investing, the first step is to look for potentially undervalued stocks. I borrowed an analytical algorithm from operational research, the Data Envelopment Analysis (DEA), to help me find companies whose valuation comps are not warranted by their financial statements.
 DEA is a method that enables us to compare and rank records based on their features without making any prior assumptions about the importance or weights of the features. Each record/stock has *M* inputs that measure the financial performances, and *N* outputs that measure the company’s valuation.
