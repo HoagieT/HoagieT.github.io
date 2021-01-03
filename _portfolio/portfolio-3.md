@@ -21,4 +21,4 @@ The above optimization problem can be solved with Linear Dynamic Programming. Th
 
 We can run this algorithm to all the stocks. The stocks with the lowest efficiency have the best chance of being undervalued, i.e., their financial statistics tell a different story from their valuation. What the algorithm gave me was a lead to a story that had to be developed. I would take a more in-depth look into the most undervalued stocks and analyse their fundamentals to decide if they are cheap for a valid reason.
 
-[Click to view my stock screening model [Python]](https://github.com/HoagieT/Stock-Screening-Model-Based-On-Data-Envelopment-Analysis)
+[Click to view my stock screening model [Python]](https://github.com/HoagieT/Stock-Screening-Model-Based-On-Data-Envelopment-Analysis){:target="_blank"}
