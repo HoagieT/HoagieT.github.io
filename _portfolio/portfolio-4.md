@@ -1,6 +1,6 @@
 ---
 title: "Stochastic Trading"
-excerpt: "A statistical arbitrage trading strategy based on stochastic spread model. <br/><img src='/images/FAVAR image.png' style='zoom:100%'>"
+excerpt: "A statistical arbitrage trading strategy based on stochastic spread model. <br/><img src='/images/Stochastic Spread image.png' style='zoom:100%'>"
 collection: portfolio
 ---
 
