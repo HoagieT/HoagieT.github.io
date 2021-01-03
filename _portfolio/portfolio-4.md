@@ -1,6 +1,6 @@
 ---
 title: "Economic Forecasting"
-excerpt: "An economic forecasting technique based on factor-augmented vector autoregression and incorporates big data. <br/><img src='/images/DEA image.png' style='zoom:65%'>"
+excerpt: "An economic forecasting technique based on factor-augmented vector autoregression and incorporates big data. <br/><img src='/images/FAVAR image.png' style='zoom:100%'>"
 collection: portfolio
 ---
 
