@@ -8,7 +8,7 @@ collection: portfolio
 In value investing, the first step is to look for potentially undervalued stocks. I borrowed an analytical algorithm from operational research, the Data Envelopment Analysis (DEA), to help me find companies whose valuation comps are not warranted by their financial statements.
 DEA is a method that enables us to compare and rank records based on their features without making any prior assumptions about the importance or weights of the features. Each record/stock has *M* inputs that measure the financial performances, and *N* outputs that measure the company’s valuation.
 
-<img src="https://latex.codecogs.com/gif.latex?E_{i}=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}" title="E_{i}=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}" /></a>
+<img src="https://latex.codecogs.com/gif.latex?E_{i}=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}" title="E_{i}=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}" />
 
 where, *E* is the efficiency of stock *i*, u and v are the weights of each output and input of the stock. Then the problem of finding the best weights for a particular stock i can be formulated as follows:
 
