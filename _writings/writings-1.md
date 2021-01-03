@@ -1,6 +1,6 @@
 ---
-title: "Stock Pitch Report"
-excerpt: "My investment recommendation on Canada Goose (NYSE: GOOS) on Dec 31, 2020. <br/><img src='/images/stock pitch image.png' style='zoom:65%'>"
+title: "Predict the Trend: A Concise Guide to Forecasting China's Economy and Interest Rates"
+excerpt: "I published this book in Aug 2020. This book outlined the analytical and forecasting framework I developed as a China rates strategist at CITIC Securities."
 collection: writings
 ---
 
