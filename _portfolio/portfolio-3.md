@@ -1,6 +1,6 @@
 ---
 title: "Value Investing Screening Model"
-excerpt: "<br/><img src='/images/DEA image.png' style='zoom:40%'>"
+excerpt: "<br/><img src='/images/DEA image.png' style='zoom:100%'>"
 collection: portfolio
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
