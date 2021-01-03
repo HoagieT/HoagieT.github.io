@@ -20,4 +20,4 @@ A chart for trading indicator is also designed in this project.
 
 
 
-[Click to view my model [Python]](https://github.com/HoagieT/Stochastic-Spread-Trading)
+[Click to view my model [Python]](https://github.com/HoagieT/Stochastic-Spread-Trading){:target="_blank"}
