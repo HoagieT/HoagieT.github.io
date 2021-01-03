@@ -1,6 +1,6 @@
 ---
 title: "Stock Pitch Report"
-excerpt: "<br/><img src='/images/stock pitch image.png' style='zoom:65%'>"
+excerpt: "My investment recommendation on Canada Goose (NYSE: GOOS) on Dec 31, 2020. <br/><img src='/images/stock pitch image.png' style='zoom:65%'>"
 collection: portfolio
 ---
 
