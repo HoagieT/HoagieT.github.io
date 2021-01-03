@@ -15,4 +15,4 @@ Then, we combine variables of interest and the common factors to run the classic
 The model also allows us to impose restrictions on the factors. Some economic indicators move synchronously with copper price, others lead or lag copper price movement. To implement this identification scheme, it is useful to define two categories of variables, “slow-moving” and “fast-moving”. A “slow-moving” variable is one that is largely predetermined as of the current period, while a “fast-moving” variable – think of an asset price – is highly sensitive to contemporaneous economic news or shocks.
 
 
-[Click to view my model [Python]](https://github.com/HoagieT/Factor-Augmented-Vector-Autoregression)
+[Click to view my model [Python]](https://github.com/HoagieT/Factor-Augmented-Vector-Autoregression){:target="_blank"}
