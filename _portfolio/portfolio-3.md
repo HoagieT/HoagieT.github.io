@@ -4,5 +4,14 @@ excerpt: "<br/><img src='/images/DEA image.png' style='zoom:40%'>"
 collection: portfolio
 ---
 
-Since I enrolled London Business School, I have been transferring my analytical skills to equity research to explore the significant opportunities for learning and growth that the stock market offers. I recently represented the London Business School at the Chicago Booth Investment Competition and finished in the top four. This repeort demonstrates my progress in equity research.
+In value investing, the first step is to look for potentially undervalued stocks. I borrowed an analytical algorithm from operational research, the Data Envelopment Analysis (DEA), to help me find companies whose valuation comps are not warranted by their financial statements.
+DEA is a method that enables us to compare and rank records based on their features without making any prior assumptions about the importance or weights of the features. Each record/stock has M inputs that measure the financial performances, and N outputs that measure the company’s valuation.
+Efficiency of stock i=(weighted average of outputs)/(weighted average of inputs)=(∑_(r=1)^(r=N)▒〖u_(r,i) y_(r,i) 〗)/(∑_(s=1)^(s=M)▒〖v_(s,i) x_(s,i) 〗)
+where u and v are the weights of each output and input of the record. Then the problem of finding the best weights for a particular record i can be formulated as follows:
+maximize h=(∑_(r=1)^(r=N)▒〖u_(r,i) y_(r,i) 〗)/(∑_(s=1)^(s=M)▒〖v_(s,i) x_(s,i) 〗)
+subject to  (∑_(r=1)^(r=N)▒〖u_(r,i) y_(r,j) 〗)/(∑_(s=1)^(s=M)▒〖v_(s,i) x_(s,j) 〗)≤1 for every j record
+u_(r,i),v_(s,i)≥0
+The above optimization problem can be solved with Linear Dynamic Programming. The h in the first equation is called efficiency. A low efficiency indicates that the company might be undervalued. To apply this algorithm to assist value investing, I used each company’s financial statistics as inputs and valuation comps as outputs (see table below).
+
+
 [Click to view my stock screening model [Python]](https://github.com/HoagieT/Stock-Screening-Model-Based-On-Data-Envelopment-Analysis)
