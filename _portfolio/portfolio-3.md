@@ -1,6 +1,6 @@
 ---
 title: "Value Investing Screening Model"
-excerpt: "<br/><img src='/images/DEA image.png' style='zoom:65%'>"
+excerpt: "A value investing opportunity screening algorithm based on Data Envelopment Analysis. <br/><img src='/images/DEA image.png' style='zoom:65%'>"
 collection: portfolio
 ---
 
