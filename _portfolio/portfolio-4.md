@@ -1,24 +1,17 @@
 ---
 title: "Economic Forecasting"
-excerpt: "An econbomic forecasting technique based on factor-augmented vector autoregression and incorporates big data. <br/><img src='/images/DEA image.png' style='zoom:65%'>"
+excerpt: "An economic forecasting technique based on factor-augmented vector autoregression and incorporates big data. <br/><img src='/images/DEA image.png' style='zoom:65%'>"
 collection: portfolio
 ---
 
-In value investing, the first step is to look for potentially undervalued stocks. I borrowed an analytical algorithm from operational research, the Data Envelopment Analysis (DEA), to help me find companies whose valuation comps are not warranted by their financial statements.
-DEA is a method that enables us to compare and rank records based on their features without making any prior assumptions about the importance or weights of the features. Each record/stock has *M* inputs that measure the financial performances, and *N* outputs that measure the company’s valuation.
+I used a factor augmented vector autoregression (FAVAR) model to forecast copper price. FAVAR was first developed by Bernanke, Boivin and Eliasz (2004) to estimate the impact of monetary policy. Vanguard later applied this model to create the Vanguard Capital Market Model to forecast asset prices. Plese refer to https://www.nber.org/system/files/working_papers/w10220/w10220.pdf for detailed explaination of the model.
 
-<img src="https://latex.codecogs.com/gif.latex?E_{i}=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}" title="E_{i}=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}" />
+The mechanism is simple: the math behind FAVAR and classic VAR are the same. But unlike VAR, which can only take a few variables, FAVAR can incorporate a very large data set and reduce them to a few factors using principal component analysis.
 
-where, *E* is the efficiency of stock *i*, u and v are the weights of each output and input of the stock. Then the problem of finding the best weights for a particular stock i can be formulated as follows:
+Principal component analysis is an algorithm that finds a few common factors that can explain the most variation in the underlying data. It is like taking a two-dimensional photo for a three-dimentinal person. We can take the photo from many angles. Some angles can clearly identify the person, e.g. the front anglge, and others lose a lot of critical information, e.g. the back angle. Principal component analysis is an algorithm that finds the best shooting angle when we take a x-dimentional photo for a N-dimentional data set (x<<N).
 
-<img src="https://latex.codecogs.com/png.latex?maximize&space;\quad&space;h=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}&space;\\&space;subject&space;\,&space;to&space;\quad&space;\frac{\sum_{r=1}^{N}u_{r,i}y_{r,j}}{\sum_{s=1}^{M}v_{s,i}x_{r,j}}\le1\,for\,every\,record\,j&space;\\&space;and&space;\,&space;u_{r,i},&space;v_{s,i}&space;\ge&space;0" title="maximize \quad h=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}} \\ subject \, to \quad \frac{\sum_{r=1}^{N}u_{r,i}y_{r,j}}{\sum_{s=1}^{M}v_{s,i}x_{r,j}}\le1\,for\,every\,record\,j \\ and \, u_{r,i}, v_{s,i} \ge 0" />
+Then, we combine variables of interest, which in our case is the copper price, and the common factors to run the classical VAR regression. With this framework, we can include as many variables as possible and can even expand the model to a big data setting.
 
-The above optimization problem can be solved with Linear Dynamic Programming. The h in the first equation is called efficiency. A low efficiency indicates that the company might be undervalued. To apply this algorithm to assist value investing, I used each company’s financial statistics as inputs and valuation comps as outputs:
+The model also allows us to impose restrictions on the factors. Some economic indicators move synchronously with copper price, others lead or lag copper price movement. To implement this identification scheme, it is useful to define two categories of variables, “slow-moving” and “fast-moving”. A “slow-moving” variable is one that is largely predetermined as of the current period, while a “fast-moving” variable – think of an asset price – is highly sensitive to contemporaneous economic news or shocks.
 
-**Inputs**: Beta, operating margin, profit margin, revenue per share, return on assets, return on equity, EPS, revenue growth, leverage ratio 
-
-**Outputs**: Trailing P/E, forward P/E, EV/Sales, EV/EBIT, P/BV, PEG, P/sales
-
-We can run this algorithm to all the stocks. The stocks with the lowest efficiency have the best chance of being undervalued, i.e., their financial statistics tell a different story from their valuation. What the algorithm gave me was a lead to a story that had to be developed. I would take a more in-depth look into the most undervalued stocks and analyse their fundamentals to decide if they are cheap for a valid reason.
-
-[Click to view my stock screening model [Python]](https://github.com/HoagieT/Stock-Screening-Model-Based-On-Data-Envelopment-Analysis)
+[Click to view my model [Python]](https://github.com/HoagieT/Factor-Augmented-Vector-Autoregression)
