@@ -10,8 +10,9 @@ The mechanism is simple: the math behind FAVAR and classic VAR are the same. But
 
 Principal component analysis is an algorithm that finds a few common factors that can explain the most variation in the underlying data. It is like taking a two-dimensional photo for a three-dimentinal person. We can take the photo from many angles. Some angles can clearly identify the person, e.g. the front anglge, and others lose a lot of critical information, e.g. the back angle. Principal component analysis is an algorithm that finds the best shooting angle when we take a x-dimentional photo for a N-dimentional data set (x<<N).
 
-Then, we combine variables of interest, which in our case is the copper price, and the common factors to run the classical VAR regression. With this framework, we can include as many variables as possible and can even expand the model to a big data setting.
+Then, we combine variables of interest and the common factors to run the classical VAR regression. With this framework, we can include as many variables as possible and can even expand the model to a big data setting. To assess the impact of certain economic shocks, we can simply look at the impact reponse funcation.
 
 The model also allows us to impose restrictions on the factors. Some economic indicators move synchronously with copper price, others lead or lag copper price movement. To implement this identification scheme, it is useful to define two categories of variables, “slow-moving” and “fast-moving”. A “slow-moving” variable is one that is largely predetermined as of the current period, while a “fast-moving” variable – think of an asset price – is highly sensitive to contemporaneous economic news or shocks.
+
 
 [Click to view my model [Python]](https://github.com/HoagieT/Factor-Augmented-Vector-Autoregression)
