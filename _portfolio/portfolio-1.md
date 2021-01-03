@@ -1,6 +1,6 @@
 ---
 title: "Stock Pitch Report"
-excerpt: "<br/><img src='/images/stock pitch image.png'>"
+excerpt: "<br/><img src='/images/stock pitch image.png' style='zoom:50%'>"
 collection: portfolio
 ---
 
