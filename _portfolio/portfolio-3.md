@@ -26,7 +26,17 @@ We can run this algorithm to all the stocks. The stocks with the lowest efficien
 
 <!DOCTYPE html><script src="https://cdn.jsdelivr.net/npm/texme@0.9.0"></script><textarea>
 
+<!DOCTYPE html>
+<script>window.texme = { style: 'plain' }</script>
+<script src="https://cdn.jsdelivr.net/npm/texme@0.9.0"></script><textarea>
+
 # Euler's Identity
 
 In mathematics, **Euler's identity** is the equality
 $$ e^{i \pi} + 1 = 0. $$
+
+## Explanation
+
+Euler's identity is a special case of Euler's formula from complex
+analysis, which states that for any real number $ x $,
+$$ e^{ix} = \cos x + i \sin x. $$
