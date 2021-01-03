@@ -10,10 +10,8 @@ DEA is a method that enables us to compare and rank records based on their featu
 
 <img src="https://latex.codecogs.com/gif.latex?E_{i}=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}" title="E_{i}=\frac{\sum_{r=1}^{N}u_{r,i}y_{r,i}}{\sum_{s=1}^{M}v_{s,i}x_{r,i}}" /></a>
 
-where, E is the efficiency of stock i, u and v are the weights of each output and input of the record. Then the problem of finding the best weights for a particular record i can be formulated as follows:
-maximize h=(∑_(r=1)^(r=N)▒〖u_(r,i) y_(r,i) 〗)/(∑_(s=1)^(s=M)▒〖v_(s,i) x_(s,i) 〗)
-subject to  (∑_(r=1)^(r=N)▒〖u_(r,i) y_(r,j) 〗)/(∑_(s=1)^(s=M)▒〖v_(s,i) x_(s,j) 〗)≤1 for every j record
-u_(r,i),v_(s,i)≥0
+where, E is the efficiency of stock i, u and v are the weights of each output and input of the stock. Then the problem of finding the best weights for a particular stock i can be formulated as follows:
+
 The above optimization problem can be solved with Linear Dynamic Programming. The h in the first equation is called efficiency. A low efficiency indicates that the company might be undervalued. To apply this algorithm to assist value investing, I used each company’s financial statistics as inputs and valuation comps as outputs (see table below).
 
 
