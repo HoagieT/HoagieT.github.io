@@ -23,4 +23,4 @@ I wrote this 500-word article as part of the application to a hedge fund. The es
 
 This article was the final project of my game theory class in graduate school. In this paper, I developed an evolutionary game theory model, which I named the Manager-Investor Game, to study the credibility issue between a fund manager and his investors. The model showed that in the case when auditing cost is sufficiently small, letting the manager pay for the auditing fee can lead to minimum deadweight loss (DWL) and highest economic efficiency. In contrast, if auditing cost is high, then both parties would automatically comne to an agreement of fixed return and abandon the proportional profit-sharing arrangement.
 
-[Click to view my essay [PDF]](http://hoagiet.github.io/files/Manager_Investor_Game.pdf){:target="_blank"}
+[Click to view my essay [PDF]](http://hoagiet.github.io/files/Manager_Invester_Game.pdf){:target="_blank"}
