@@ -6,7 +6,7 @@ collection: portfolio
 
 Nowcast Model was first developed by the US Federal Reserve. This model was developed to solve the problem described below. 
 
-<br/><img src='/images/Nowcast image-2.png' style='zoom:50%'>
+<br/><img src='/images/Nowcast image-2.png' style='zoom:100%'>
 
 Since monthly data are usually released with a lag, sometimes so long as three weeks, the reconstruction of current-month inflation and other key variables is an important task for central banks. Financial authorities devote a considerable amount of resources to figuring out the current economic status and so should investment analysts.
 
