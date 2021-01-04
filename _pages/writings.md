@@ -1,23 +1,14 @@
 ---
 permalink: /writings/
-title: "Markdown"
+title: "Writings"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
 
-## Locations of key files/directories
+## Predict the Trend: A Concises Guide to Forecasting China's Economy and Interest Rates
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
-* Single pages: _pages/
-* Collections of pages are .md or .html files in:
-  * _publications/
-  * _portfolio/
-  * _posts/
-  * _teaching/
-  * _talks/
-* Footer: _includes/footer.html
-* Static files (like PDFs): /files/
-* Profile image (can set in _config.yml): images/profile.png
+Before I went to London and enrolled London Business School, I wrote this book as memoir of the first chapter of my career. I hope to use this book to pay tribute to Joseph Ellis, an ex-Goldman analyst. His book *Ahead of the Curve* greatly inspired my research ideas and laid the foundation for my research methodology. My book uses the same method to map out China’s macroeconomic chronology and provided a viable forecasting framework to guide fixed income investment.
+
+[Click to view my book on Amazon](https://www.amazon.com/dp/B08GX3T5F3/)
