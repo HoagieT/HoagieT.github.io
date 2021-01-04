@@ -6,6 +6,8 @@ collection: portfolio
 
 Nowcast Model was first developed by the US Federal Reserve. This model was developed to solve the problem described below. 
 
+<br/><img src='/images/Nowcast image-2.png' style='zoom:50%'>
+
 Since monthly data are usually released with a lag, sometimes so long as three weeks, the reconstruction of current-month inflation and other key variables is an important task for central banks. Financial authorities devote a considerable amount of resources to figuring out the current economic status and so should investment analysts.
 
 To derive the monthly inflation data from multiple categories of price data, one may quickly turn to ordinary least squares (OLS) regressions. But OLS is unreliable in this scenario for three reasons. First, there are many kinds of industrial products, and throwing them all into a regression model will lead to multiple collinearity problems. If only applying the model to a few industrial products, then there is a lot of information going to waste. Second, inflation is a monthly data; while most of the prices are released daily or weekly. Linear regression cannot be directly performed on variables with different frequencies. Third, regression requires complete data, but at the time when we estimate CPI or PPI, the data set may have some null values.
