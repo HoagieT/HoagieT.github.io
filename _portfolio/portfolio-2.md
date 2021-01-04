@@ -15,4 +15,4 @@ So, we hope to find a way to: 1. effectively make use of as much industrial prod
 Nowcast model first reduce a large data set to a few common factors using Principal Component Analysis (PCA). Then, we run Structural VAR adn Kalman Filter on the common factors to predict the factors in the near term. If a variable is unavailable at a certain time point, Kalman Filter will not give any weight to this variable at that time point. In this way, even if part of the data set is missing, we can still calculate the factors and then use the factors to reversely derive the missing data. This is the core principle of the Nowcast technique.
 
 
-[Click to view my Nowcast Model [Python]](https://github.com/HoagieT/Inflation-Nowcast-Models){:target="_blank"}
+[Click to view my Nowcast Model [Python]](https://github.com/HoagieT/Inflation-Nowcast-Model){:target="_blank"}
