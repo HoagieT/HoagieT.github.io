@@ -45,4 +45,10 @@ Skills
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+
+* Training & Development Officer, LBS Finance Club, 09/2020-present 
+  * Organized training seminars in financial modeling and interview skills.
+  
+* Project Consultant, A Better Community, 02/2018-09/2020 
+  * Brokered $70k impact investment from Didi Chuxing for an NPO building new career training school for left-behind children on Sino-Burmese border.
+  * Managed volunteer recruiting process and organized training camps.
