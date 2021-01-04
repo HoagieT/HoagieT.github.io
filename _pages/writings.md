@@ -18,3 +18,9 @@ Before I went to London and enrolled London Business School, I wrote this book a
 I wrote this 500-word article as part of the application to a hedge fund. The essay question was "tell us something you believe in but most other people do not." In this little piece, I used a simple game theory model to argue that rights are not naturally embedded in our society, but the equilibrium of repeated games in economic development.
 
 [Click to view my essay [PDF]](http://hoagiet.github.io/files/Essay_Hogan Tong.pdf){:target="_blank"}
+
+## Manager-Investor game: evolve of honesty and incredulity
+
+This article was the final project of my game theory class in graduate school. In this paper, I developed an evolutionary game theory model, which I named the Manager-Investor Game, to study the credibility issue between a fund manager and his investors. The model showed that in the case when auditing cost is sufficiently small, letting the manager pay for the auditing fee can lead to minimum deadweight loss (DWL) and highest economic efficiency. In contrast, if auditing cost is high, then both parties would automatically comne to an agreement of fixed return and abandon the proportional profit-sharing arrangement.
+
+[Click to view my essay [PDF]](http://hoagiet.github.io/files/Manager_Investor_Game.pdf){:target="_blank"}
