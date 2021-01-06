@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Hogan Tong"
 title_separator          : "-"
-name                     : &name "Hogan Tong"
+name                     : &name "Hogan Tong, CFA"
 description              : &description "personal description"
 url                      : https://HoagieT.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
