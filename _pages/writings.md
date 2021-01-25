@@ -13,14 +13,20 @@ Before I went to London and enrolled London Business School, I wrote this book a
 
 [Click to view my book on Amazon](https://www.amazon.com/dp/B08GX3T5F3/)
 
-## On the Origin of Rights
-
-I wrote this 500-word article as part of the application to a hedge fund. The essay question was "tell us something you believe in but most other people do not." In this little piece, I used a simple game theory model to argue that rights are not naturally embedded in our society, but the equilibrium of repeated games in economic development.
-
-[Click to view my essay [PDF]](http://hoagiet.github.io/files/Essay_Hogan Tong.pdf){:target="_blank"}
-
 ## Manager-Investor game: evolve of honesty and incredulity
 
 This article was the final project of my game theory class in graduate school. In this paper, I developed an evolutionary game theory model, which I named the Manager-Investor Game, to study the credibility issue between a fund manager and his investors. The model showed that in the case when auditing cost is sufficiently small, letting the manager pay for the auditing fee can lead to minimum deadweight loss (DWL) and highest economic efficiency. In contrast, if auditing cost is high, then both parties would automatically comne to an agreement of fixed return and abandon the proportional profit-sharing arrangement.
 
 [Click to view my essay [PDF]](http://hoagiet.github.io/files/Manager_Invester_Game.pdf){:target="_blank"}
+
+## Did Chine benefit from ACFTA?
+
+In this article, I examined China’s gain, measured by the increase in total value of export to ASEAN countries, from joining the ASEAN-China Free Trade Area (ACFTA). I used an extended form of gravity model to capture the demographic characteristics of ASEAN countries and China. Regression results showed that ACFTA had small and positive effect on China’s exports to ASEAN countries, but the effect was not substantial.
+
+[Click to view my essay [PDF]](http://hoagiet.github.io/files/Did China benefit from ACFTA.pdf){:target="_blank"}
+
+## On the Origin of Rights
+
+I wrote this 500-word article as part of the application to a hedge fund. The essay question was "tell us something you believe in but most other people do not." In this little piece, I used a simple game theory model to argue that rights are not naturally embedded in our society, but the equilibrium of repeated games in economic development.
+
+[Click to view my essay [PDF]](http://hoagiet.github.io/files/Essay_Hogan Tong.pdf){:target="_blank"}
