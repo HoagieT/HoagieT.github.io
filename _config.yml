@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hogan Tong"
+title                    : "Hogan Tong, CFA"
 title_separator          : "-"
 name                     : &name "Hogan Tong, CFA"
 description              : &description "personal description"
