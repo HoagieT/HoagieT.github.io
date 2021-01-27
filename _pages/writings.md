@@ -23,7 +23,7 @@ This article was the final project of my game theory class in graduate school. I
 
 ## Did Chine benefit from ACFTA?
 
-In this paper, I use an extended form of the Gravity Model to examine China’s gains, measured by the increase in total value of export to ASEAN countries through the ASEAN-China Free Trade Area (ACFTA). Regression results showed that ACFTA had a positive, but negligible, effect on China’s exports to ASEAN countries.
+In this paper, I use an extended form of the Gravity Model to examine China’s gains, measured by the increase in total value of export to ASEAN countries, through the ASEAN-China Free Trade Area (ACFTA). Regression results showed that ACFTA had a positive, but negligible, effect on China’s exports to ASEAN countries.
 
 [Click to view my essay [PDF]](http://hoagiet.github.io/files/Did China benefit from ACFTA.pdf){:target="_blank"}
 
