@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Click to view my up-to-date CV [PDF]](http://hoagiet.github.io/files/Hogan Tong_CV.pdf)
+[Click to view my up-to-date CV [PDF]](http://hoagiet.github.io/files/Hogan Tong_CV_e.pdf)
 
 <!-- <embed src="http://hoagiet.github.io/files/Resume_Hogan Tong.pdf" width="650" height="1800" type='application/pdf'> -->
 
