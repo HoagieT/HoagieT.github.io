@@ -11,7 +11,7 @@ The model is a statistical arbitrage algorithm based on mean reversion stochasti
 
 To make this strategy easier to illustrate, I made a chart for the trading indicators.
 
-<br/><img src='/images/TradingRule.png' style='zoom:60%'>
+<br/><img src='/images/TradingRule.png' style='zoom:80%'>
 
 **Chart Notes:** 
 1. Red line represents the priori Kalman Filter prediction, i.e. the fair value of price spread.
