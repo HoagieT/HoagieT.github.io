@@ -14,9 +14,12 @@ To make this strategy easier to illustrate, I made a chart for the trading indic
 <br/><img src='/images/TradingRule.png' style='zoom:80%'>
 
 **Chart Notes:** 
-1. Red line represents the priori Kalman Filter prediction, i.e. the fair value of price spread.
-2. Black line represents the observed spreads calculated with close price each day.
-3. Blue area represents trading threshold, trade is triggered when black line breaks out of blue area.
+1. The black line represents the actual value of the commodity combination through time
+2. The red line represents the fair value as calculated using the Kalman Filter for the commodity combination through time
+3. The green line represents the long and short positions taken in the combination through time.
+4. The blue band represents the trading threshold and the yellow band represents the close threshold.
+
+Note that actual value being significantly less than the computed fair value coincides with buying the combination next period, while actual value being significantly more than the computed fair value coincides with selling the combination next period
 
 **Trading rules:** 
 1. Open a reverse position if the black line breaks out of the blue area.
