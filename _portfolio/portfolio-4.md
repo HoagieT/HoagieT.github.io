@@ -4,10 +4,9 @@ excerpt: "A statistical arbitrage trading strategy based on stochastic spread mo
 collection: portfolio
 ---
 
+This project proposed a quantitative rules-based strategy, which we term the Divergent Scouter, that trades combinations of cointegrated commodity futures and capitalizes during temporary deviations from the stationarity of their relationship. Specifically, the strategy first identifies linear combinations of commodity futures that form a stationary price series; we call such a stationary price series the spread of a given combination. Whenever this combination spread deviates from its computed fair value, we open a position (going long and short the appropriate futures as dictated by the linear combination coefficients) betting on a reversal back to the spread’s fair value. We close the position and realize a profit once the spread reverses.
 
-This project implements the framework described in "[Pairs Trading](http://stat.wharton.upenn.edu/~steele/Courses/434/434Context/PairsTrading/PairsTradingQFin05.pdf)" by Elliott et al.
-The model is a statistical arbitrage algorithm based on mean reversion stochastic process and Kalman Filter. When implemented in China's treasury futures and commodity futures, the model generates stable and significant returns.
-
+Detailed description of this strategy can be found [here](http://hoagiet.github.io/files/Proposed Strategy Write Up.pdf){:target="_blank"}
 
 To make this strategy easier to illustrate, I made a chart for the trading indicators.
 
