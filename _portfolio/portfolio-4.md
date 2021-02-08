@@ -1,5 +1,5 @@
 ---
-title: "Statistical Arbitrage Trading"
+title: "The Divergent Scouter: A Novel Statistical Arbitrage Trading Strategy"
 excerpt: "A statistical arbitrage trading strategy based on stochastic spread model. <br/><img src='/images/TradingRule.png' style='zoom:60%'>"
 collection: portfolio
 ---
