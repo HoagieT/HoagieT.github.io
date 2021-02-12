@@ -23,7 +23,7 @@ Note that actual value being significantly less than the computed fair value coi
 **Trading rules:** 
 1. Open a reverse position if the black line breaks out of the blue area.
 2. Hold the position and wait for the black line to reverse to the red line.
-3. Close the position when the black line touches the red line.
+3. Close the position when the black line converges to the yellow area.
 
 
 [Click to view my model [Python]](https://github.com/HoagieT/Stochastic-Spread-Trading){:target="_blank"}
