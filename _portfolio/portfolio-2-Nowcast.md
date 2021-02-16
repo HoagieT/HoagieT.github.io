@@ -24,4 +24,4 @@ Nowcast method can be used in any case where we need to estimate low-frequency i
 
 Note: The arrow points to the moment when inflation data was released. After the inflation data was released, treasury future price quickly rose to intra-day highest point in six minutes.
 
-[Click to view my Nowcast Model [Python]](https://github.com/HoagieT/Inflation-Nowcast-Model){:target="_blank"}
+[Click to view my code [Python]](https://github.com/HoagieT/Inflation-Nowcast-Model){:target="_blank"}
