@@ -16,5 +16,12 @@ So, we hope to find a way to: 1. effectively make use of as much industrial prod
 
 To perform a nowcast, we first reduce a large data set to a few common factors using Principal Component Analysis (PCA). Then, we run Structural VAR and Kalman Filter on the common factors to predict the factors to the next month. If a variable is unavailable at a certain time point, Kalman Filter will not give any weight to this variable at that time point. In this way, even if part of the data set is missing, we can still calculate the factors and then use the factors to reversely derive the missing data. This is the core principle of the Nowcast technique.
 
+# What it can be used for?
+
+Nowcast method can be used in any time-to-event analysis. On 31 May 2020, my Nowcast Model predicted that M/M growth of CPI in May was -0.5%, and the M/M growth of PPI in May was -0.22%. The respective predicted Y/Y growth rates in May are 2.6% and -3.5%. At the time, market expectation for the Y/Y growth rate of CPI and PPI were 3.02% and -3.03%. Because the Nowcast predictions were significantly lower than market expectations, I advised portfolio managers to long treasury bond future at market opening on 10 June, the day when the May inflation data is released. Specifically, I advised them to long the TS2009 contract, which delivers 2Y treasury bonds on 20 September 2009, because inflation surprises have a stronger effect on short-term treasury bonds. The future market opens at 9:15 a.m., and the inflation data is released around 9:30 a.m. The actual inflation data released at 9:30 a.m. were 2.4% for CPI and -3.7% for PPI, much lower than market expectation and slightly lower than the Nowcast prediction. As is shown in the chart below, the treasury future rose to intra-day highest point quickly after the inflation data was released.
+
+<br/><img src='/images/Inflation Arbitrage.png' style='zoom:100%'>
+
+Note: The arrow points to the moment when inflation data was released. After the inflation data was released, treasury future price quickly rose to intra-day highest point in six minutes.
 
 [Click to view my Nowcast Model [Python]](https://github.com/HoagieT/Inflation-Nowcast-Model){:target="_blank"}
