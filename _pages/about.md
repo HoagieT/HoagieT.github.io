@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I’m Hogan, an MBA candidate at [London Business School](https://www.london.edu/masters-degrees/mba/). I was an economist by training with a background in applied mathematics. I discovered my ehthusiasm in investment research and market forecasting since I started my career. My research and publication are  grounded in the idea that the financial market dynamics are inherently economic activities, which are directed, operated, and maintained (or not) in certain patterns, by people in and between institutions. Economic activities are like physics in that they are both predictable as long as we have access to the relevant data. Therefore, I spent a significant portion of my career working on forecasting techniques.
+Hi! I’m Hogan, an MBA candidate at [London Business School](https://www.london.edu/masters-degrees/mba/). I was an economist by training with a background in applied mathematics. I discovered my enthusiasm in investment research and market forecasting since I started my career. My research and publication are  grounded in the idea that the financial market dynamics are inherently economic activities, which are directed, operated, and maintained (or not) in certain patterns, by people in and between institutions. Economic activities are like physics in that they are both predictable as long as we have access to the relevant data. Therefore, I spent a significant portion of my career working on forecasting techniques.
  
 
 ## My background and history
