@@ -6,9 +6,6 @@ collection: portfolio
 
 This project proposed a quantitative rules-based strategy, which we term the Divergent Scouter, that trades combinations of cointegrated commodity futures and capitalizes during temporary deviations from the stationarity of their relationship. Specifically, the strategy first identifies linear combinations of commodity futures that form a stationary price series; we call such a stationary price series the spread of a given combination. Whenever this combination spread deviates from its computed fair value, we open a position (going long and short the appropriate futures as dictated by the linear combination coefficients) betting on a reversal back to the spread’s fair value. We close the position and realize a profit once the spread reverses.
 
-Detailed description of this strategy can be found [here](http://hoagiet.github.io/files/Proposed Strategy Write Up.pdf){:target="_blank"}
-
-To make this strategy easier to illustrate, I made a chart for the trading indicators.
 
 <br/><img src='/images/TradingRule.png' style='zoom:80%'>
 
