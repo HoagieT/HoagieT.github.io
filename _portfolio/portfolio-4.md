@@ -23,4 +23,4 @@ Note that actual value being significantly less than the computed fair value coi
 3. Close the position when the black line converges to the yellow area.
 
 
-[Click to view my model [Python]](https://github.com/HoagieT/Stochastic-Spread-Trading){:target="_blank"}
+The code is not made public for this project.
